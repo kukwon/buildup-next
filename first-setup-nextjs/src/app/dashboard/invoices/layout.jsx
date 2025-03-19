@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "InvoiceLayout title",
+  description: "InvoiceLayout description",
+};
+
 export default function InvoiceLayout({ children }) {
   return (
     <>

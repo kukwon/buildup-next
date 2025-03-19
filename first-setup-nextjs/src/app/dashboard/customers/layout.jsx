@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "CustomerLayout title",
+  description: "CustomerLayout description",
+};
+
 export default function CustomerLayout({ children }) {
   return (
     <>

@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "DashboardLayout title",
+  description: "DashboardLayout description",
+};
+
 export default function DashboardLayout({ children }) {
   return (
     <>
