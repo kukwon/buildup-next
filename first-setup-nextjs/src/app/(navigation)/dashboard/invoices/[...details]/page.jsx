@@ -5,8 +5,8 @@ export default async function InvoiceDetails(context) {
   console.log("pathVariable", pathVariable);
   console.log("query_parameter", query_parameter);
 
-  const type = pathVariable.details[0];
-  const desc = pathVariable.details[1];
+  const type = pathVariable?.details[0];
+  const desc = pathVariable?.details[1];
 
   /* 방법 2
   const { details } = pathVariable;
